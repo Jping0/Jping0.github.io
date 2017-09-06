@@ -1,0 +1,37 @@
+.container h2 {
+  text-align: center;
+}
+.container hr {
+  height: 3px;
+  background-color: red;
+}
+.container .swiper1,
+.container .swiper5 {
+  width: 1000px;
+}
+.container .swiper1 .swiper-wrapper .swiper-slide > img,
+.container .swiper5 .swiper-wrapper .swiper-slide > img {
+  width: 1000px;
+  height: 300px;
+}
+.container .swiper2 {
+  width: 400px;
+}
+.container .swiper2 .swiper-wrapper .swiper-slide > img {
+  width: 400px;
+  height: 300px;
+}
+.container .swiper3 {
+  width: 1000px;
+}
+.container .swiper3 .swiper-wrapper .swiper-slide > img {
+  width: 400px;
+  height: 400px;
+}
+.container .swiper4 {
+  width: 600px;
+}
+.container .swiper4 .swiper-wrapper .swiper-slide > img {
+  width: 600px;
+  height: 400px;
+}
