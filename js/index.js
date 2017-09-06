@@ -2,6 +2,7 @@
 var mySwiper1 = new Swiper('.swiper1', {
     autoplay: 1000, //可选选项，自动滚动
     loop: true, //循环
+    autoplayDisableOnInteraction: false, //注意此参数，默认为true
 });
 
 var mySwiper2 = new Swiper('.swiper2', {
@@ -14,6 +15,7 @@ var mySwiper2 = new Swiper('.swiper2', {
     */
     autoplay: 2000, //可选选项，自动滚动
     loop: true, //循环
+    autoplayDisableOnInteraction: false, //注意此参数，默认为true
     effect: 'cube',
     cube: {
         slideShadows: true,
@@ -33,6 +35,7 @@ var mySwiper3 = new Swiper('.swiper3', {
     */
     autoplay: 1000, //可选选项，自动滚动
     loop: true, //循环
+    autoplayDisableOnInteraction: false, //注意此参数，默认为true
     effect: 'coverflow',
     slidesPerView: 3,
     centeredSlides: true,
@@ -53,6 +56,7 @@ var mySwiper4 = new Swiper('.swiper4', {
     */
     autoplay: 1000, //可选选项，自动滚动
     loop: true, //循环
+    autoplayDisableOnInteraction: false, //注意此参数，默认为true
     effect: 'flip',
     flip: {
         slideShadows: true,
@@ -67,6 +71,7 @@ var mySwiper5 = new Swiper('.swiper5', {
             */
     autoplay: 1000, //可选选项，自动滚动
     loop: true, //循环
+    autoplayDisableOnInteraction: false, //注意此参数，默认为true
     effect: 'fade',
     fade: {
         crossFade: false,
